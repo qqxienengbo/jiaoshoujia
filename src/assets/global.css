@@ -1,0 +1,14 @@
+/* 清空自带的样式 */
+body{
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;/*超出则隐藏，还没测试过*/
+}
+/* 把所有元素变成盒状模式 */
+*{
+    box-sizing: border-box;
+    /* max-width: 100vw;
+    max-height: 100vh; */
+}
